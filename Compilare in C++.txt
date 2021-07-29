@@ -1,0 +1,31 @@
+Compilare file C++ :
+
+--Windows--
+
+Installare da link seguente il compilatore Mingw C/C++
+
+http://www.equation.com/servlet/equation.cmd?fa=fortran
+
+aprire il prompt dei comandi e scrivere :
+
+make g++ nomefile senza estensione
+
+Per eseguire su Windows : nomefile e invio
+
+---MacOS--
+
+Scaricare dall'appstore per MacOS l'app Xcode
+
+Aprire il terminale e dare : make nomefile senza estensione
+
+per eseguire ./nomefile e invio nel terminale
+
+--Linux--
+
+Aprire il terminale e dare il comando :
+
+sudo apt install build-essential
+
+Aprire il terminale e dare : make nomefile senza estensione
+
+per eseguire ./nomefile e invio nel terminale
