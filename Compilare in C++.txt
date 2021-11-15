@@ -29,3 +29,11 @@ sudo apt install build-essential
 Aprire il terminale e dare : make nomefile senza estensione
 
 per eseguire ./nomefile e invio nel terminale
+
+g++ nomefile.c -o nomefile_desiderato -O3 -pedantic -std=c++14 -Wall -Werror -Wextra
+
+-o rinomina l'eseguibile generato dalla compilazione e le altre sono opzioni al compilatore
+
+per visualizzare tutti gli errori anche i warning, ottimizzare e generare un eseguibile secondo lo standard C++ 2014.
+
+questa invocazione del gcc è uguale su ogni sistema operativo
