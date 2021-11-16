@@ -10,6 +10,10 @@ aprire il prompt dei comandi e scrivere :
 
 make g++ nomefile senza estensione
 
+oppure se usi mingw32
+
+mingw32-make nome_file
+
 Per eseguire su Windows : nomefile e invio
 
 ---MacOS--
